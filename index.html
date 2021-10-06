@@ -10,7 +10,7 @@
       height: 100vh;
       width: 100vw;
       align-items: center;
-      
+      justify-content: center;
     }
     @keyframes ldio-s860ydi1ud {
       0% { transform: rotate(0deg) }
@@ -18,12 +18,15 @@
       100% { transform: rotate(360deg) }
     }
     .ldio-s860ydi1ud div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
       position: absolute;
-      animation: ldio-s860ydi1ud 1s linear infinite;
+      top: 50%;
+      left: 50%;      animation: ldio-s860ydi1ud 1s linear infinite;
       width: 70px;
       height: 70px;
-      top: 15px;
-      left: 15px;
       border-radius: 50%;
       box-shadow: 0 5px 0 0 #2f69bf;
       transform-origin: 35px 37.5px;
